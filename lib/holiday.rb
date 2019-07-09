@@ -79,11 +79,10 @@ holiday_hash.each do |season, data|
     value.each do |supply|
      if supply == "BBQ"
         answer.push(holiday)
-        end
       end
     end
   end
-
+end
 answer
 end
 
